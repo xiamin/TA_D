@@ -17,7 +17,7 @@ struct e2prom_device
 struct e2prom_device e2prom;
 
 static rt_err_t e2prom_init(rt_device_t dev)
-{
+{ 
     return RT_EOK;
 }
 
