@@ -3595,7 +3595,7 @@ FRESULT f_mkfs (
 	fs = FatFs[drv];
 	if (!fs) return FR_NOT_ENABLED;
 	fs->fs_type = 0;
-	drv = LD2PD(drv);
+	drv = LD2PD(drv);	/*logic drive to physical drive */
 
 	/* Get disk statics */
 	stat = disk_initialize(drv);
