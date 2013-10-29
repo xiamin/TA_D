@@ -198,7 +198,7 @@ rt_err_t dfs_filesystem_get_partition(struct dfs_partition *part,
 }
 
 /**
- * this function will mount a file system on a specified path.
+ * this function will mount a file system on a specified path. 将文件系统挂载在指定的目录上
  *
  * @param device_name the name of device which includes a file system.
  * @param path the path to mount a file system
